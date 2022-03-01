@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testpomframework">
+
+<listeners>
+<listener class-name="com.appname.qa.ExtentReportListener.ExtentReporterNG">
+</listener>
+</listeners>
+  <test name="tescases">
+<classes>
+<class name="com.appname.qa.testcase.HomePageTest"></class>
+<!--<class name="com.appname.qa.testcase.LoginPageTest"></class>-->
+</classes>
+  </test> <!-- tescases -->
+</suite> <!-- Testpomframework -->
